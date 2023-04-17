@@ -70,7 +70,7 @@ namespace ddd_test.customer.infrastructure
 
             customer.Load(
                 loadedFromStore.Select(a => a.Event).Last().EventNumber.ToInt64(),
-            loadedEvents);
+                loadedEvents);
 
             return customer;
 

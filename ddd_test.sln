@@ -13,9 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "customer", "customer", "{82
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ddd_test.customer.domain", "ddd_test.customer.domain\ddd_test.customer.domain.csproj", "{C33CD557-0FA5-4337-B71D-0E43FD7F5D2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd_test.customer.infrastructure", "ddd_test.customer.infrastructure\ddd_test.customer.infrastructure.csproj", "{1E8F60D7-74B4-4D2A-8D3B-3F57886EF10C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ddd_test.customer.infrastructure", "ddd_test.customer.infrastructure\ddd_test.customer.infrastructure.csproj", "{1E8F60D7-74B4-4D2A-8D3B-3F57886EF10C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd_test.customer.api", "ddd_test.customer.api\ddd_test.customer.api.csproj", "{F8D5495D-79FC-4F86-ABDC-CC1900FBECEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ddd_test.customer.api", "ddd_test.customer.api\ddd_test.customer.api.csproj", "{F8D5495D-79FC-4F86-ABDC-CC1900FBECEA}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A92043C3-A91D-4F23-95E1-A7F7D19F0BAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{F8D5495D-79FC-4F86-ABDC-CC1900FBECEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8D5495D-79FC-4F86-ABDC-CC1900FBECEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8D5495D-79FC-4F86-ABDC-CC1900FBECEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A92043C3-A91D-4F23-95E1-A7F7D19F0BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92043C3-A91D-4F23-95E1-A7F7D19F0BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A92043C3-A91D-4F23-95E1-A7F7D19F0BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A92043C3-A91D-4F23-95E1-A7F7D19F0BAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

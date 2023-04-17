@@ -6,13 +6,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>2bf8d9cb-b604-428e-a8d3-03c29daccd53</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="EventStore.Client.Grpc.Streams" Version="22.0.0" />
     <ProjectReference Include="..\ddd_test.customer.domain\ddd_test.customer.domain.csproj" />
     <ProjectReference Include="..\ddd_test.customer.infrastructure\ddd_test.customer.infrastructure.csproj" />
   </ItemGroup>
